@@ -1,39 +1,12 @@
 # Helpful Commands for Vim
 
-Vim has so many commands that it can be intimidating for first time users.  They
-may feel that using a different, more familiar, editor would make coding more efficient.
-It may be difficult to remember what all of these new commands do, but these users may
-even begin to enjoy using it more than their previous editors if given enough time to
-practice with Vim.  I am not master at using Vim and am still learning new things about
-it.  Overtime, I learned a few tricks that helped me utilize Vim to make better code.
+Vim has so many commands that it can be intimidating for first time users.  They may feel that using a different, more familiar, editor would make coding more efficient. It may be difficult to remember what all of these new commands do, but these users may even begin to enjoy using it more than their previous editors if given enough time to practice with Vim.  I am not master at using Vim and am still learning new things about it.  Overtime, I learned a few tricks that helped me utilize Vim to make better code.
 
-One of the first things I noticed about Vim that I initially disliked was that it
-took over the terminal when I used it.  I thought that I would have to close Vim each
-time I wanted to test if my program could run correctly.  To get around this issue, I
-started using two terminals instead of just one while I was programming.  I would run Vim
-using the first terminal and would run the executable in the second.  It was as simple as
-using “:w” to save on Vim instead of using “:wq” to save and quit. I could now test my
-code without ever having to close Vim.
+One of the first things I noticed about Vim that I initially disliked was that it took over the terminal when I used it.  I thought that I would have to close Vim each time I wanted to test if my program could run correctly.  To get around this issue, I started using two terminals instead of just one while I was programming.  I would run Vim using the first terminal and would run the executable in the second.  It was as simple as using “:w” to save on Vim instead of using `:wq` to save and quit. I could now test my code without ever having to close Vim.
 
-At first it felt very time consuming to indent multiple lines. I would go to the
-beginning of each line and after using “i” and type tab.  With so many commands in Vim, I
-was surprised that there was no command to just indent a few lines.  I felt this way
-until I found about the “V” command.  “V” lets users highlight a line and pressing up or
-down can highlight as many lines as they desire.  All that was left to do was to type “>”
-after everything I wanted to indent was highlighted and it all would indented once to the
-right. Typing “<” would instead indent it to the left if I ever wanted to do that.  This
-greatly improved my usage of Vim for “V”, or “v” if users wanted to highlight characters
-instead of entire lines, was could be combined with many commands and not just indenting.
+At first it felt very time consuming to indent multiple lines. I would go to the beginning of each line and after using “i” and type tab.  With so many commands in Vim, I was surprised that there was no command to just indent a few lines.  I felt this way until I found about the “V” command.  “V” lets users highlight a line and pressing up or down can highlight as many lines as they desire.  All that was left to do was to type “>” after everything I wanted to indent was highlighted and it all would indented once to the right. Typing “<” would instead indent it to the left if I ever wanted to do that.  This greatly improved my usage of Vim for “V”, or “v” if users wanted to highlight characters instead of entire lines, was could be combined with many commands and not just indenting.
 
-One problem that I would occasionally get is I would do some sort of command by
-ident and highlight something that I did not want to highlight. At first I did not even
-know that I could highlight things so I thought I messed something up and this would
-affect my code.  This is not the case. There are many different ways to highlight and
-this is exists to help with Vim.  If this is done by accident then there are a few ways
-to get rid of the highlight. Highlighting something else would get rid of this, but when
-I first started using Vim I did not even know how to do that. There is a command that
-will get rid of any highlights and return the text back to normal without highlighting
-anything else. Just type “:nohlsearch” and the highlight will go away.
+One problem that I would occasionally get is I would do some sort of command by ident and highlight something that I did not want to highlight. At first I did not even know that I could highlight things so I thought I messed something up and this would affect my code.  This is not the case. There are many different ways to highlight and this is exists to help with Vim.  If this is done by accident then there are a few ways to get rid of the highlight. Highlighting something else would get rid of this, but when I first started using Vim I did not even know how to do that. There is a command that will get rid of any highlights and return the text back to normal without highlighting anything else. Just type “:nohlsearch” and the highlight will go away.
 
 It was difficult at first trying to transverse my code while using Vim.  I was so used to being able to use my mouse and simply click where I wanted to go. I was now at the mercy of moving my cursor one line at a time to go anywhere until I learned more about the many helpful tools Vim already had just for traveling through code.  Some are simple such as “gg” to go to the top of the code, “G” to go to the bottom of it, and “(any number)G” to go to the line number typed before the capital G.
 
